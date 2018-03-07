@@ -1,0 +1,82 @@
+body {
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card {
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px rgba(0,0,0,.4);
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	float: right;
+}
+.container {
+	padding-top: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+.card-img-top {
+	border-radius: 0;
+}
+.card-body {
+	border-radius: 0;
+}
+.btn-veglach {
+	color: #186a3b;
+	border-color: #186a3b;
+	border-radius: 0;
+}
+.btn.btn-veglach:hover {
+	background:  #d5f5e3    ;
+}
+.card-img-top {
+	width: 100%;
+	height: 330px;
+}
+#me-header{
+	margin-top: 2rem;
+	font-size: 3rem;
+	font-family: 'Nunito', sans-serif;
+}
+.metadata{
+	font-size: 17px;
+}
+#position{
+	margin-top: 20px;
+}
+.col-sms-6{
+	position: relative;
+	/*float: left;*/
+	min-height: 1px;
+	padding-right: 15px;
+	margin: 0 5px;
+	padding: 0px;
+	border: none;
+	outline: none;
+}
+.left{
+	float: left;
+}
+.rupee {
+	font-size: 15px;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 50px 0;
+}
+.right{
+	float: right;
+}
+#capital-start:first-letter{
+	text-transform: capitalize
+}
+.half {
+	width: 50%;
+}
+.hide {
+	visibility: hidden;
+}

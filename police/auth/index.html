@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form class="register-form">
+				<input type="text" placeholder="name" id="name" />
+				<input type="password" placeholder="password" id="reg_password" />
+				<input type="text" placeholder="email_address" id="email_address" />
+				<button id="create_button">create</button>
+				<p class="message">Already registered? <a href="#">Sign In</a></p>
+			</form>
+			<form class="login-form">
+				<input type="text" placeholder="branch id" id="branch_id" />
+				<input type="text" placeholder="email" id="email" />
+				<input type="password" placeholder="password" id="login_password" />
+				<button id="login_button">login</button>
+				<p class="message">Not registered? <a href="#">Create an account</a></p>
+			</form>
+		</div>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

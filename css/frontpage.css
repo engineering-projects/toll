@@ -1,0 +1,12 @@
+.sidebar-nav{
+    font-family: 'Montserrat', sans-serif;
+}
+#sidebar-wrapper{
+    background: black;
+}
+.menu-toggle{
+	background: rgba(0,0,0,0);	
+}
+.mb-1,.mb-5{
+	color: black;
+}

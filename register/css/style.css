@@ -1,0 +1,41 @@
+form{
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+}
+.container {
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	margin: 100px auto;
+	width: 720px;
+	background: #f7f7f7;
+	margin-bottom: 20px;
+	height: 720px;
+	overflow: auto;
+}
+body{
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'Poppins', sans-serif;
+}
+button{
+	margin-bottom: 20px;
+}
+#require{
+	color: red;
+}
+.right {
+	float: right;
+}
+#butt{
+	color: white;
+	text-decoration-color: white;
+}
+.title {
+	font-family: 'Nunito', sans-serif;
+}
+.well{
+	margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase demo</title>
+</head>
+
+
+<body>
+<h1 id="dakhav"></h1>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAZRmQHfS8zG4I8c44MsKcNN60dJzKr-o0",
+    authDomain: "toll-d2ece.firebaseapp.com",
+    databaseURL: "https://toll-d2ece.firebaseio.com",
+    projectId: "toll-d2ece",
+    storageBucket: "toll-d2ece.appspot.com",
+    messagingSenderId: "554609518469"
+  };
+  firebase.initializeApp(config);
+  var refr = document.querySelector("#dakhav");
+  var db = firebase.database().ref().child("123").child("user_id");
+  db.on('value',x => refr.innerHTML = x.val());
+</script>
+</body>
+</html>
